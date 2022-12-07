@@ -83,7 +83,6 @@ const handleChange = (item, d) => {
           />{' '}
         </div>
       )}
-      <div>nuru</div>
     </>
   );
 };
