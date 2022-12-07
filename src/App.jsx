@@ -6,14 +6,12 @@ import React, { useState } from 'react';
 import Header from './component/header/Header';
 import Body from './component/main-content/Body';
 import Footer from './component/footer/Footer';
-import Plate from './component/plate/Plate';
 import Menu from './component/menu/Menu';
 import Nav from './component/nav/Nav';
 import About from './component/about/About';
 import Testimonial from './component/testimonial/Testimonial';
 import Parent from './component/Parent';
 import Basket from './component/bascket/Basket';
-import Cart from './component/cart/Cart';
 
 const App = () => {
   const [show, setShow] = useState(true);
