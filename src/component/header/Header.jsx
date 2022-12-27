@@ -14,6 +14,8 @@ function Header({changePage, show}) {
      <a className='a-header-contact' href='#contact' ><div className='call-us'>call us: <span className='header-number'>093848392</span></div></a>
      <button onClick={changePage} className="header-basket">{show ? "bascket" : "back home"}</button>
      </div>
+
+   
     </header>
   )
 }

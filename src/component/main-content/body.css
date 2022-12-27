@@ -1,20 +1,30 @@
 .body-parent{
-    height: 600px;
-  /* background-image: url("../../asset/eid-dishes.webp"); */
-   background-image: url("../../asset/bodyImg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   
-    height: 100vh;
-  /*  border: 1px solid black;*/
-    display:flex;
-    align-items: center;
-    justify-content: center;
+  height: 600px;
+/* background-image: url("../../asset/eid-dishes.webp"); */
+ background-image: url("../../asset/bodyImg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+  height: 100vh;
+  border: 1px solid black;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .taste{
-   
-    color: white;
-    font-size: 100px;
-   
+ 
+  color: rgb(235, 235, 13);
+  font-size: 100px;
+
+}
+
+/* =================== media ======================= */
+
+@media (max-width: 767px){
+.taste{
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+}
 }
