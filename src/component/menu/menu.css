@@ -328,6 +328,7 @@ li div:first-child{
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+       
      }
      .juice-img-parent{
         border-radius: 50%;

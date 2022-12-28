@@ -16,6 +16,10 @@ header{
     
    
 }
+/*
+.dropdown-menu-parent{
+    display: none
+}*/
 
 
 .welcome{
@@ -140,7 +144,7 @@ header{
         flex-direction: column;
         justify-content: center;
         padding-left: 20px;
-        
+        display: none;
         
     }
     header{
@@ -156,11 +160,29 @@ header{
         font-weight: 900;
         font-size: 90px;
     }
+
+    .dropdown-menu-parent{
+        display: block;
+    }
+
+    .dropdown-item-parent-show{
+        display: block;
+    }
+    .dropdown-item-parent-dontShow{
+        display: none
+    }
+
+    .dropdown-icon{
+        font-weight: 900;
+        font-size: 90px;
+    }
   
  }
 
 
- /* small screen */
+
+
+ /* small screen */ 
 
  @media (min-width: 768px) and (max-width: 992px){
    

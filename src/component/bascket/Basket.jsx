@@ -26,7 +26,7 @@ const Basket = ({ changePage, cart, setCart, handleChange }) => {
   return (
     <div className="basket">
       <Header changePage={changePage} />
-      <h className="basket-title">Your Bascket</h>
+      <h className="basket-title">Your Basket</h>
       <div>
         {cart.map((p) => (
           <section key={p.id}>
