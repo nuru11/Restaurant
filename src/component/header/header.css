@@ -1,8 +1,9 @@
 header{
-    background-color: dimgray !important;
+  /*  background-color: dimgray !important;*/
+    background-color: transparent;
     height: 80px;
-    border: 2px solid dimgray !important;
-    position: fixed;
+ /*  border: 2px solid dimgray !important;*/
+   position: absolute;
     width: 100%;
 
 }
@@ -150,7 +151,8 @@ header{
     header{
         width: 100%;
         height: fit-content;
-        position: static;
+        position: absolute;
+        background-color: transparent;
     }
     .welcome{
         width: fit-content;
@@ -163,10 +165,12 @@ header{
 
     .dropdown-menu-parent{
         display: block;
+        background-color: dimgray;
     }
 
     .dropdown-item-parent-show{
         display: block;
+        
     }
     .dropdown-item-parent-dontShow{
         display: none
