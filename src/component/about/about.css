@@ -2,6 +2,7 @@
     /*  background-image: url(../../asset/images7.jpg); */
       background-image: url('../../asset/aboutImg.jpg'); 
       background-repeat: no-repeat;
+      background-attachment: fixed;
       height: 100vh;
       background-size: cover;
    }
