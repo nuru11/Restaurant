@@ -151,6 +151,11 @@
     }
 }
 
+.plate-price-span{
+    text-decoration: line-through;
+    text-decoration-color: red;
+}
+
 
 /* small screen */
 /*
