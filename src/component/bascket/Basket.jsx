@@ -26,8 +26,9 @@ const Basket = ({ changePage, cart, setCart, handleChange }) => {
   return (
     <div className="basket">
       <Header changePage={changePage} />
+    <div className='hidden-text'>hidden text</div>
+      <div className='basket-parent'>
       <h className="basket-title">Your Basket</h>
-      <div>
         {cart.map((p) => (
           <section key={p.id}>
             <ul className="basket-ul">
@@ -55,7 +56,7 @@ const Basket = ({ changePage, cart, setCart, handleChange }) => {
                 >
                   +
                 </button>
-              </li>
+              </li> 
               <div className="basket-btn-li-parent">
                 <li>
                   <button
@@ -75,7 +76,7 @@ const Basket = ({ changePage, cart, setCart, handleChange }) => {
       </div>
       <div className="basket-btn-parent">
         {price === 0 ? (
-          <div className="basket-noProduct">you havent added any product!</div>
+          <div className="basket-noProduct">you haven`t added any product!</div>
         ) : (
           <div className="basket-totalPrice">total price: {price}</div>
         )}

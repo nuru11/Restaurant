@@ -36,7 +36,7 @@ const Menu = ({changePage, handleClick}) => {
             <li className='menu-juice-li'><div className='juice-img-parent'>
             <img className='menu-img1' src={n.img} alt="" /></div>
             <div className='li-item'><h className="menu-name"><span className="menu-name-text">name:</span>
-            <span className='menu-name-span'>burger</span></h><h className="menu-price"><span className='menu-price-text'>price:</span>
+            <span className='menu-name-span'>juice</span></h><h className="menu-price"><span className='menu-price-text'>price:</span>
             <span className='menu-price-span'>${n.price}</span></h> 
             <button onClick={() => handleClick(n)} className='menu-btn'>order now</button></div></li>
 

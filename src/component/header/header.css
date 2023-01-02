@@ -11,7 +11,7 @@ header{
 .item-parent{
     
     margin-top: 25px;
-    display: flex;
+    display: flex; 
     flex-direction: row; 
     justify-content: space-between;
     
@@ -151,7 +151,7 @@ header{
     header{
         width: 100%;
         height: fit-content;
-        position: absolute;
+        position: static;
         background-color: transparent;
     }
     .welcome{

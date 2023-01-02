@@ -7,12 +7,21 @@
    height: 100vh;
    width: 100%;
    background-color: rgba(134, 130, 130);
+
+  
 }
  
+.basket-parent{
+    margin-top: 100px;
+}
+
 .basket-title{
     font-size: 60px;
     margin-left: 40%;
     color: white;
+    margin-top: 200px;
+  
+    
 }
 .basket-ul{
     display: flex;
@@ -170,6 +179,11 @@
     font-size: xx-large;
     font-weight: bolder;
     margin-left: 30px;
+    color: red;
+}
+
+.hidden-text{
+    color: transparent;
 }
 
 /* ==================== media ================= */
@@ -182,7 +196,7 @@
     .basket-ul{
         flex-direction: column;
         border-color:  yellow transparent;
-    }
+    } 
     .basket-home-btn{
         margin-left: 20%;
         margin-bottom: 30px;
