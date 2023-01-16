@@ -191,7 +191,7 @@
 @media (max-width: 767px){
     .basket{
         border: 1px solid rgb(49, 31, 31);
-        height: fit-content;
+       height: fit-content;
     }
     .basket-ul{
         flex-direction: column;
@@ -212,6 +212,10 @@
        
         width: fit-content;
         margin-left: 20px;
+    }
+    .basket-footer{
+        background-color: red;
+       bottom: 0
     }
 }
 

@@ -76,19 +76,22 @@ span{
 
 @media (max-width: 767px){
     .footer{
-    height: fit content;
-    margin-top: 10px;
-   display: none;
-   
+    height: fit-content;
+   /* margin-top: 10px;*/
+  /* border: 2px solid aqua */
+  position: static;
+   bottom: 0;
 
     }
     .footer-parent{
         grid-template-columns: 1fr;
         position: static;
+        bottom: 0;
+        width: 100%;
          height: fit-content;
-        /*height: 240px;*/
+        height: 240px;
         background-color: dimgray;
-        border: 1px solid red;
+       /* border: 1px solid red;*/
     }
     .email-us{
    margin-top: 0;

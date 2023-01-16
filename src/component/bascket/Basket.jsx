@@ -81,11 +81,8 @@ const Basket = ({ changePage, cart, setCart, handleChange }) => {
           <div className="basket-totalPrice">total price: {price}</div>
         )}
         <button className="basket-home-btn" onClick={changePage}>
-          Home
+          Home 
         </button>
-      </div>
-      <div className="basket-footer">
-        <Footer />
       </div>
     </div>
   );

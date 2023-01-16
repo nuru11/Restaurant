@@ -68,7 +68,7 @@ const handleChange = (item, d) => {
             handleClick={handleClick}
           />
           <Testimonial />
-          <Footer />{' '}
+         {' '}
         </div>
       ) : (
         <div>
@@ -78,9 +78,11 @@ const handleChange = (item, d) => {
             changePage={changePage}
             cart={cart}
             setCart={setCart}
-          />{' '}
+          />
+          {' '}
         </div>
       )}
+       <Footer />
     </>
   );
 };
